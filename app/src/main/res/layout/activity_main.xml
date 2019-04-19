@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ac1_text1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:text="显示信息"
+         />
+    <TextView
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        />
+    <Button
+        android:id="@+id/ac1_button1"
+        android:text="Activity作为监听器"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ac1_button2"
+        android:text="匿名内部类"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ac1_button3"
+        android:text="绑定到标签"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:onClick="labelmethod"/>
+    <Button
+        android:id="@+id/ac1_button4"
+        android:text="内部类"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ac1_button5"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:text="外部类"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ac1_button6"
+        android:text="ButterKnife绑定"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ac1_button7"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ac1_button8"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:text="系统信息"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ac1_button9"
+        android:text="进度条模拟"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
